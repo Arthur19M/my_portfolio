@@ -122,6 +122,10 @@ document.addEventListener("DOMContentLoaded", () => {
             if (translation) {
                 element.innerHTML = translation;
             }
+
+            if (Array.isArray(translation)) {
+                element.innerHTML = translation.join('<br>');
+            }
         });
     }
 
@@ -138,4 +142,3 @@ document.addEventListener("DOMContentLoaded", () => {
     // Initialiser avec la langue par défaut
     loadTranslations();
 });
-
