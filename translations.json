@@ -63,7 +63,6 @@
     },
     "contact": {
       "title": "Contact Me",
-      "email": "example@mail.com",
       "followMe": "Follow Me"
     }
   },
@@ -131,7 +130,6 @@
     },
     "contact": {
       "title": "Contactez-moi",
-      "email": "exemple@mail.com",
       "followMe": "Suivez-moi"
     }
   }
