@@ -40,10 +40,10 @@
                   <div class="nav">
                      <div class="nav-inner">
                         <ul>
-                           <li><a href="#home" class="nav-item link-item">Home</a></li>
-                           <li><a href="#about" class="nav-item link-item">About</a></li>
-                           <li><a href="#portfolio" class="nav-item link-item">Portfolio</a></li>
-                           <li><a href="#contact" class="nav-item link-item">Contact</a></li>
+                           <li><a href="#home" class="nav-item link-item" data-key="menu.home"></a></li>
+                           <li><a href="#about" class="nav-item link-item" data-key="menu.about"></a></li>
+                           <li><a href="#portfolio" class="nav-item link-item" data-key="menu.portfolio"></a></li>
+                           <li><a href="#contact" class="nav-item link-item" data-key="menu.contact"></a></li>
                         </ul>
                      </div>
                   </div>
@@ -60,8 +60,8 @@
                       <p data-key="home.greeting"></p>
                       <h1 data-key="home.name"></h1>
                       <h2 data-key="home.role"></h2>
-                     <a href="#about" class="btn link-item">About Me</a>
-                     <a href="#portfolio" class="btn link-item">Portfolio</a>
+                     <a href="#about" class="btn link-item" data-key="home.about"></a>
+                     <a href="#portfolio" class="btn link-item" data-key="home.portfolio"></a>
                   </div>
                   <div class="home-img">
                      <div class="img-box">
@@ -77,7 +77,7 @@
             <div class="container">
                <div class="row">
                   <div class="section-title">
-                     <h2>About Me</h2>
+                     <h2 data-key="about.title"></h2>
                   </div>
                </div>
                <div class="row">
@@ -87,70 +87,71 @@
                      </div>
                   </div>
                   <div class="about-text">
-                     <p>
-                        I am a highly intrigued and passionate believer in acquiring knowledge in the spheres of Computer Security
-                        and Machine Learning, especially with their usage concerning how they are engineered and the challenges
-                        faced. In the pursuit to do this, I have acquired a high degree of knowledge, from computer architecture
-                        to principles of software engineering. I am passionate about working with system security management and
-                        would like to focus on research towards the domain of "Provably- Secure System Designs."
-                     </p>
-                     <h3>Skills</h3>
+                     <p data-key="about.description"></p>
+                     <h3 data-key="about.skills"></h3>
                      <div class="skills">
-                        <div class="skill-item">skill1</div>
-                        <div class="skill-item">skill2</div>
-                        <div class="skill-item">skill3</div>
-                        <div class="skill-item">skill4</div>
-                        <div class="skill-item">skill5</div>
-                        <div class="skill-item">skill6</div>
+                         <div class="skill-item">Python</div>
+                         <div class="skill-item">C</div>
+                         <div class="skill-item">Git</div>
+                         <div class="skill-item">SQL</div>
+                         <div class="skill-item">Jupyter</div>
+                         <div class="skill-item">Docker</div>
+                         <div class="skill-item">Tableau</div>
+                         <div class="skill-item">JAVA</div>
+                         <div class="skill-item" data-key="about.h_skill1"></div>
+                         <div class="skill-item" data-key="about.h_skill2"></div>
+                         <div class="skill-item" data-key="about.h_skill3"></div>
+                         <div class="skill-item" data-key="about.h_skill4"></div>
+                         <div class="skill-item" data-key="about.h_skill5"></div>
                      </div>
                      <div class="about-tabs">
-                        <button type="button" class="tab-item active" data-target="#education">Education</button>
-                        <button type="button" class="tab-item" data-target="#experience">Experience</button>
+                        <button type="button" class="tab-item active" data-target="#education" data-key="about.education"></button>
+                        <button type="button" class="tab-item" data-target="#experience" data-key="about.experience"></button>
                      </div>
                      <!-- Education Section Start -->
                      <div class="tab-content active" id="education">
                         <div class="timeline">
-                           <div class="timeline-item">
-                              <span class="date">2015 - 2019</span>
-                              <h4>B.Tech - <span>LoL Uniersity</span></h4>
-                              <p>Some random text to tell about yur degree</p>
-                           </div>
-                           <div class="timeline-item">
-                              <span class="date">2015 - 2019</span>
-                              <h4>B.Tech - <span>LoL Uniersity</span></h4>
-                              <p>Some random text to tell about yur degree</p>
-                           </div>
-                           <div class="timeline-item">
-                              <span class="date">2015 - 2019</span>
-                              <h4>B.Tech - <span>LoL Uniersity</span></h4>
-                              <p>Some random text to tell about yur degree</p>
-                           </div>
+                            <div class="timeline-item">
+                                <span class="date" data-key="about.ed.date1"></span>
+                                <h4 data-key="about.ed.loc1"></h4>
+                                <h3 data-key="about.ed.name1"></h3>
+                                <p data-key="about.ed.desc1"></p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="date" data-key="about.ed.date2"></span>
+                                <h4 data-key="about.ed.loc2"></h4>
+                                <h3 data-key="about.ed.name2"></h3>
+                                <p data-key="about.ed.desc2"></p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="date" data-key="about.ed.date3"></span>
+                                <h4 data-key="about.ed.loc3"></h4>
+                                <h3 data-key="about.ed.name3"></h3>
+                                <p data-key="about.ed.desc3"></p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="date" data-key="about.ed.date4"></span>
+                                <h4 data-key="about.ed.loc4"></h4>
+                                <h3 data-key="about.ed.name4"></h3>
+                                <p data-key="about.ed.desc4"></p>
+                            </div>
                         </div>
                      </div>
                      <!-- Education Section End -->
                      <!-- Exp Section Start -->
                      <div class="tab-content" id="experience">
                         <div class="timeline">
-                           <div class="timeline-item">
-                              <span class="date">2013 - 2016</span>
-                              <h4>web developer - <span>Quantum Base</span></h4>
-                              <p>Some random text to tell about your job</p>
-                           </div>
-                           <div class="timeline-item">
-                              <span class="date">2013 - 2016</span>
-                              <h4>web developer - <span>Quantum Base</span></h4>
-                              <p>Some random text to tell about your job</p>
-                           </div>
-                           <div class="timeline-item">
-                              <span class="date">2013 - 2016</span>
-                              <h4>web developer - <span>Quantum Base</span></h4>
-                              <p>Some random text to tell about your job</p>
-                           </div>
+                            <div class="timeline-item">
+                                <span class="date" data-key="about.exp.date1"></span>
+                                <h4 data-key="about.exp.loc1"></h4>
+                                <h3 data-key="about.exp.name1"></h3>
+                                <p data-key="about.exp.desc1"></p>
+                            </div>
                         </div>
                      </div>
                      <!-- Exp Section End -->
-                     <a href="cv.pdf" target="_blank" class="btn">Download CV</a>
-                     <a href="#contact" class="btn link-item">Contact Me</a>
+                     <a href="cv.pdf" target="_blank" class="btn" data-key="about.cv"></a>
+                     <a href="#contact" class="btn link-item" data-key="about.contact"></a>
                   </div>
                </div>
             </div>

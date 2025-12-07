@@ -15,17 +15,55 @@
     },
     "about": {
       "title": "About Me",
-      "description": "I am a highly intrigued and passionate believer in acquiring knowledge in the spheres of Computer Security...",
+      "description": [
+        "🎓 I am a 4th year student in a top-ranked French Graduate School of Engineering, majoring in Artificial Intelligence and Data Science.", "",
+        "💡 Used to working in team environments, I have had the opportunity to get involved in student projects and organizations in various positions, such as project leader and board member.", "",
+        "🔬 This year, I have had the privilege to join an AI research lab where I’m contributing to a project focused on personalized federated learning systems for violence detection in surveillance videos. This experience has allowed me to gain hands-on research experience while applying advanced AI techniques to real-world problems.", "",
+        "🌍 My background has a strong international dimension: I have studied in English, spent a semester in Dublin at 18, and later in Bangkok. These experiences reinforced my motivation to bring an international perspective to my career, with a particular interest in Southeast Asia. TOEIC: 955.", "",
+        "🏃 In my free time you will find me running, as I believe in maintaining a healthy balance between body and mind.", "",
+        "Let’s connect! I’m always open to interesting conversations and collaborations, in France or abroad."
+      ],
       "skills": "Skills",
+      "h_skill1": "Self-starter",
+      "h_skill2": "Adaptable",
+      "h_skill3": "Scientific communicator",
+      "h_skill4": "Time management",
+      "h_skill5": "Team player",
       "education": "Education",
-      "experience": "Experience"
+      "ed": {
+        "date1": "2022 - TODAY",
+        "loc1": "ESIEA GRADUATE SCHOOL OF ENGINEERING - <span>Paris, France</span>",
+        "name1": "1st year of Master",
+        "desc1": "Major in Artificial Intelligence and Data Science - International Section.",
+        "date2": "2025 (5 months)",
+        "loc2": "KING MONGKUT'S UNIVERSITY OF TECHNOLOGY THONBURI - <span>Bangkok, Thailand</span>",
+        "name2": "Exchange program",
+        "desc2": "Data preparation, modeling, and prediction, database systems, computer networks, advanced computer architecture.",
+        "date3": "2023 (4 months)",
+        "loc3": "DORSET COLLEGE - <span>Dublin, Ireland</span>",
+        "name3": "Exchange program",
+        "desc3": "Cybersecurity, Mathematics, Problem Solving, Computer Science and Software.",
+        "date4": "2022",
+        "loc4": "SENIOR HIGH SCHOOL - <span>France</span>",
+        "name4": "Baccalauréat",
+        "desc4": "With distinction - European section."
+      },
+      "experience": "Experience",
+      "exp": {
+        "date1": "SUMMERS 2023, 2024, 2025 (9 months)",
+        "loc1": "CRÊPERIE DE LA GARE - <span>Sartrouville, France</span>",
+        "name1": "Waiter – Seasonal Position",
+        "desc1": "Over 120 seats. Table service, bar work, technical support, inventory and supplier management, and development of a new menu offer: recipe creation, strategy, and staff training."
+      },
+      "cv": "Download CV",
+      "contact": "Contact me"
     },
     "portfolio": {
       "recentWork": "Recent Work"
     },
     "contact": {
       "title": "Contact Me",
-      "email": "example@gmail.com",
+      "email": "example@mail.com",
       "followMe": "Follow Me"
     }
   },
@@ -45,17 +83,55 @@
     },
     "about": {
       "title": "À propos de moi",
-      "description": "Je suis un passionné de l'acquisition des connaissances dans les domaines de la sécurité informatique...",
+      "description": [
+        "🎓 Étudiant en 2ᵉ année de cycle ingénieur dans une grande école d’ingénieurs française, je me spécialise en Intelligence Artificielle et Data Science.", "",
+        "💡 Habitué au travail en équipe, j’ai eu l’occasion de participer à différents projets et associations étudiantes, en occupant des responsabilités telles que chef de projet ou membre de bureau.", "",
+        "🔬 Cette année, j’ai intégré un laboratoire de recherche en IA, où je contribue à un projet sur l’apprentissage fédéré personnalisé appliqué à la détection de violences dans les vidéos de surveillance. Cette expérience me permet de mettre en pratique des techniques avancées d’IA sur des problématiques concrètes.", "",
+        "🌍 Mon parcours est marqué par une forte dimension internationale : études en anglais, semestre à Dublin dès 18 ans puis un autre à Bangkok. Ces opportunités ont renforcé mon envie de donner une dimension internationale à ma carrière, avec un intérêt particulier pour l’Asie du Sud-Est. TOEIC : 955.", "",
+        "🏃 En dehors de mes études, je pratique régulièrement la course à pied, convaincu de l’importance d’un équilibre entre corps et esprit.", "",
+        "Ouvert aux échanges, je serai ravi de discuter d’IA, de Data Science et de leurs applications, en France comme à l’étranger."
+      ],
       "skills": "Compétences",
+      "h_skill1": "Autonomie",
+      "h_skill2": "Adaptabilité",
+      "h_skill3": "Communication scientifique",
+      "h_skill4": "Gestion du temps",
+      "h_skill5": "Esprit d'équipe",
       "education": "Formation",
-      "experience": "Expérience"
+      "ed": {
+        "date1": "2022 - AUJOURD'HUI",
+        "loc1": "ECOLE D’INGENIEURS ESIEA - <span>Paris, France</span>",
+        "name1": "2e année de Cycle d'Ingénieur",
+        "desc1": "Majeure Intelligence Artificielle et Data Science – section internationale.",
+        "date2": "2025 (5 mois)",
+        "loc2": "KING MONGKUT'S UNIVERSITY OF TECHNOLOGY THONBURI - <span>Bangkok, Thaïlande</span>",
+        "name2": "Semestre d’étude à l’international",
+        "desc2": "Préparation, modélisation, et prédiction de données, bases de données, réseaux, architectures informatiques.",
+        "date3": "2023 (4 mois)",
+        "loc3": "DORSET COLLEGE - <span>Dublin, Irlande</span>",
+        "name3": "Semestre d’étude à l’international",
+        "desc3": "Cyber sécurité, mathématiques, résolution de problème, informatique et logiciels.",
+        "date4": "2022",
+        "loc4": "LYCÉE GÉNÉRAL ET TECHNOLOGIQUE - <span>France</span>",
+        "name4": "Baccalauréat général",
+        "desc4": "Section européenne – Mention très bien."
+      },
+      "experience": "Expérience",
+      "exp": {
+        "date1": "ÉTÉS 2023, 2024, 2025 (9 mois)",
+        "loc1": "CRÊPERIE DE LA GARE - <span>Sartrouville, France</span>",
+        "name1": "Serveur – Emploi saisonnier",
+        "desc1": "Plus de 120 couverts. Service en salle et au bar, support technique, gestion des stocks et des fournisseurs, et conception d’une nouvelle offre : recette, stratégie, formation d’équipes."
+      },
+      "cv": "Télécharger CV",
+      "contact": "Me contacter"
     },
     "portfolio": {
       "recentWork": "Travaux récents"
     },
     "contact": {
       "title": "Contactez-moi",
-      "email": "exemple@gmail.com",
+      "email": "exemple@mail.com",
       "followMe": "Suivez-moi"
     }
   }
