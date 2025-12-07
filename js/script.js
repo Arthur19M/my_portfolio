@@ -90,3 +90,52 @@ function portfolioItemDetails(portfolioItem) {
     document.querySelector(".pp-body").innerHTML =
         portfolioItem.querySelector(".portfolio-item-details").innerHTML;
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    const langToggle = document.getElementById("language-toggle");
+    let currentLang = 'fr';  // Langue par défaut
+
+    // Charger les traductions depuis le fichier JSON
+    function loadTranslations() {
+        fetch('translations.json')
+            .then(response => response.json())
+            .then(data => {
+                const translations = data[currentLang];
+                applyTranslations(translations);
+            })
+            .catch(error => console.error("Erreur de chargement des traductions:", error));
+    }
+
+    // Appliquer les traductions sur les éléments
+    function applyTranslations(translations) {
+        document.querySelectorAll('[data-key]').forEach((element) => {
+            const key = element.getAttribute('data-key');
+            const keys = key.split('.');  // Diviser la clé pour naviguer dans l'objet JSON
+
+            // Accéder à la traduction via la clé
+            let translation = translations;
+            keys.forEach(k => {
+                translation = translation[k];
+            });
+
+            // Appliquer la traduction à l'élément
+            if (translation) {
+                element.innerHTML = translation;
+            }
+        });
+    }
+
+    // Fonction pour basculer la langue
+    function toggleLanguage() {
+        currentLang = currentLang === 'en' ? 'fr' : 'en';
+        langToggle.textContent = currentLang === 'en' ? 'FR' : 'EN'; // Changer le texte du bouton
+        loadTranslations();  // Recharger les traductions après le changement de langue
+    }
+
+    // Ajouter l'événement pour basculer la langue
+    langToggle.addEventListener("click", toggleLanguage);
+
+    // Initialiser avec la langue par défaut
+    loadTranslations();
+});
+

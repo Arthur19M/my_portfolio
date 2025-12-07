@@ -1,0 +1,62 @@
+{
+  "en": {
+    "menu": {
+      "home": "Home",
+      "about": "About",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    },
+    "home": {
+      "greeting": "Hello, I'm",
+      "name": "Arthur M",
+      "role": "Engineering student at ESIEA",
+      "about": "About Me",
+      "portfolio": "Portfolio"
+    },
+    "about": {
+      "title": "About Me",
+      "description": "I am a highly intrigued and passionate believer in acquiring knowledge in the spheres of Computer Security...",
+      "skills": "Skills",
+      "education": "Education",
+      "experience": "Experience"
+    },
+    "portfolio": {
+      "recentWork": "Recent Work"
+    },
+    "contact": {
+      "title": "Contact Me",
+      "email": "example@gmail.com",
+      "followMe": "Follow Me"
+    }
+  },
+  "fr": {
+    "menu": {
+      "home": "Accueil",
+      "about": "À propos",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    },
+    "home": {
+      "greeting": "Bonjour, je suis",
+      "name": "Arthur M",
+      "role": "Étudiant ingénieur à l'ESIEA",
+      "about": "À propos de moi",
+      "portfolio": "Mes projets"
+    },
+    "about": {
+      "title": "À propos de moi",
+      "description": "Je suis un passionné de l'acquisition des connaissances dans les domaines de la sécurité informatique...",
+      "skills": "Compétences",
+      "education": "Formation",
+      "experience": "Expérience"
+    },
+    "portfolio": {
+      "recentWork": "Travaux récents"
+    },
+    "contact": {
+      "title": "Contactez-moi",
+      "email": "exemple@gmail.com",
+      "followMe": "Suivez-moi"
+    }
+  }
+}
