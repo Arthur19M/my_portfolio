@@ -9,7 +9,12 @@
     "home": {
       "greeting": "Hello, I'm",
       "name": "Arthur M",
-      "role": "Engineering student at ESIEA",
+      "role": "Engineering student specializing in AI and Data Science – first year of Master of Science.",
+      "pitch": [
+        "I contribute to innovative research projects on federated learning for violence detection.",
+        "With international experience and a strong commitment to sports, I bring rigor, teamwork, and energy to every project.",
+        "\u200E"
+      ],
       "about": "About Me",
       "portfolio": "Portfolio"
     },
@@ -76,7 +81,12 @@
     "home": {
       "greeting": "Bonjour, je suis",
       "name": "Arthur M",
-      "role": "Étudiant ingénieur à l'ESIEA",
+      "role": "Étudiant spécialisé en IA et Data Science en 2e année de cycle d'Ingénieur.",
+      "pitch": [
+        "Je contribue à des projets de recherche innovants sur l’apprentissage fédéré appliqué à la détection de violences.",
+        "Fort d’une expérience internationale et engagé dans le sport, je valorise rigueur, esprit d’équipe et dynamisme.",
+        "\u200E"
+      ],
       "about": "À propos de moi",
       "portfolio": "Mes projets"
     },
