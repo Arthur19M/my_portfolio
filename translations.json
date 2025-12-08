@@ -29,11 +29,11 @@
         "Let’s connect! I’m always open to interesting conversations and collaborations, in France or abroad."
       ],
       "skills": "Skills",
-      "h_skill1": "Self-starter",
-      "h_skill2": "Adaptable",
-      "h_skill3": "Scientific communicator",
-      "h_skill4": "Time management",
-      "h_skill5": "Team player",
+      "h_skill1": "<i class=\"fas fa-user-check\"></i> Self-starter",
+      "h_skill2": "<i class=\"fas fa-user-edit\"></i> Adaptable",
+      "h_skill3": "<i class=\"fas fa-chalkboard-teacher\"></i> Scientific communicator",
+      "h_skill4": "<i class=\"fas fa-user-clock\"></i> Time management",
+      "h_skill5": "<i class=\"fas fa-users\"></i> Team player",
       "education": "Education",
       "ed": {
         "date1": "2022 - TODAY",
@@ -144,11 +144,11 @@
         "Ouvert aux échanges, je serai ravi de discuter d’IA, de Data Science et de leurs applications, en France comme à l’étranger."
       ],
       "skills": "Compétences",
-      "h_skill1": "Autonomie",
-      "h_skill2": "Adaptabilité",
-      "h_skill3": "Communication scientifique",
-      "h_skill4": "Gestion du temps",
-      "h_skill5": "Esprit d'équipe",
+      "h_skill1": "<i class=\"fas fa-user-check\"></i> Autonomie",
+      "h_skill2": "<i class=\"fas fa-user-edit\"></i> Adaptabilité",
+      "h_skill3": "<i class=\"fas fa-chalkboard-teacher\"></i> Communication scientifique",
+      "h_skill4": "<i class=\"fas fa-user-clock\"></i> Gestion du temps",
+      "h_skill5": "<i class=\"fas fa-users\"></i> Esprit d'équipe",
       "education": "Formation",
       "ed": {
         "date1": "2022 - AUJOURD'HUI",
