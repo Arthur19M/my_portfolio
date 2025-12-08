@@ -102,6 +102,10 @@ document.addEventListener("DOMContentLoaded", () => {
             .then(data => {
                 const translations = data[currentLang];
                 applyTranslations(translations);
+                renderPortfolioProjects(
+                    translations.portfolio.projects,
+                    translations
+                ); // Render the projects here
             })
             .catch(error => console.error("Erreur de chargement des traductions:", error));
     }
@@ -141,4 +145,42 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Initialiser avec la langue par défaut
     loadTranslations();
+
+    // Function to render portfolio items dynamically
+    function renderPortfolioProjects(projects, translations) {
+        const portfolioContainer = document.getElementById('portfolio-items-container');
+        portfolioContainer.innerHTML = '';
+
+        projects.forEach((project, index) => {
+            const projectHTML = `
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="img/portfolio/${index + 1}.jpg" alt="portfolio item thumb">
+                </div>
+
+                <h3 class="portfolio-item-title">${project.name}</h3>
+                <button type="button" class="btn view-project-btn">${translations.portfolio.viewProject}</button>
+
+                <div class="portfolio-item-details">
+                    <div class="description">
+                        <p>${project.desc}</p>
+                    </div>
+
+                    <div class="general-info">
+                        <ul>
+                            <li>${translations.portfolio.created}<span>${project.date}</span></li>
+                            <li>${translations.portfolio.tech}<span>${project.tech}</span></li>
+                            <li>${translations.portfolio.role}<span>${project.role}</span></li>
+                            <li>${translations.portfolio.more} 
+                                <span><a href="${project.link}" target="_blank">${project.ltext}</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        `;
+
+            portfolioContainer.innerHTML += projectHTML;
+        });
+    }
 });

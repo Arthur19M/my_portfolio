@@ -64,7 +64,50 @@
       "contact": "Contact me"
     },
     "portfolio": {
-      "recentWork": "Recent Work"
+      "recentWork": "Recent Work",
+      "viewProject": "View Project",
+      "projects" : [
+        {
+          "name": "Learning Data Robotics Research Lab – ESIEA",
+          "desc": "Supervised research project on personalized federated learning applied to violence detection.",
+          "date": "2025 - 2026",
+          "tech": "Python (PyTorch, Flower, CodeCarbon), Jupyter, GitLab.",
+          "role": "Research Assistant",
+          "link": "https://www.esiea.fr/esiealab-recherche/ldr/",
+          "ltext": "LDR Research Laboratory"
+        },
+        {
+          "name": "Cross-disciplinary Data Science and Medical Research Project",
+          "desc": "Analyzing breast cancer clinical data to support physicians’ questions and improve patient care.",
+          "date": "2025 - 2026",
+          "tech": "Python (Pandas, Numpy, Matplotlib, Scikit-learn), encrypted storage and messaging.",
+          "role": "Data Analyst",
+          "link": "https://www.ifaxapp.com/wp-content/uploads/2023/06/confidential-health-information.png",
+          "ltext": "Confidential Project"
+        },
+        {
+          "name": "Cryptris Python",
+          "desc": "A Python game inspired by Cryptris, illustrating lattice-based cryptography through Tetris-style mechanics.",
+          "date": "S2 2025",
+          "tech": "Python (PyGame, PyTest), GitHub, applied mathematics for cryptography.",
+          "role": "Developer",
+          "link": "https://images-archive.math.cnrs.fr/Cryptris-1-2-Comprendre-une-des-techniques-les-plus-sophistiquees-de.html",
+          "ltext": "CNRS Article"
+        },
+        {
+          "name": "Portfolio",
+          "desc": "Development of a scalable personal portfolio showcasing my work and projects, production-ready and tailored for an international audience through language selection.",
+          "date": "Dec. 2025",
+          "tech": "HTML, JavaScript, JSON, Git, GitHub Pages.",
+          "role": "Developer",
+          "link": "https://github.com/Arthur19M/my_portfolio",
+          "ltext": "GitHub Page"
+        }
+      ],
+      "created": "Created - ",
+      "tech": "Technology - ",
+      "role": "Role - ",
+      "more": "Learn more - "
     },
     "contact": {
       "title": "Contact Me",
@@ -136,7 +179,50 @@
       "contact": "Me contacter"
     },
     "portfolio": {
-      "recentWork": "Travaux récents"
+      "recentWork": "Travaux récents",
+      "viewProject": "Voir le projet",
+      "projects" : [
+        {
+          "name": "Laboratoire Learning Data Robotics – ESIEA",
+          "desc": "Projet de recherche supervisé sur l’apprentissage fédéré personnalisé appliqué à la détection de violences.",
+          "date": "2025 - 2026",
+          "tech": "Python (PyTorch, Flower, CodeCarbon), Jupyter, GitLab.",
+          "role": "Assistant de recherche",
+          "link": "https://www.esiea.fr/esiealab-recherche/ldr/",
+          "ltext": "Laboratoire de recherche LDR"
+        },
+        {
+          "name": "Projet de data science transverse et de recherche médicale",
+          "desc": "Exploiter des données cliniques du cancer du sein pour répondre aux questions des médecins et améliorer la prise en charge.",
+          "date": "2025 - 2026",
+          "tech": "Python (Pandas, Numpy, Matplotlib, Scikit-learn), partition et messagerie cryptées.",
+          "role": "Data analyst",
+          "link": "https://www.ifaxapp.com/wp-content/uploads/2023/06/confidential-health-information.png",
+          "ltext": "Projet soumis à la confidentialité"
+        },
+        {
+          "name": "Cryptris Python",
+          "desc": "Jeu Python inspiré de Cryptris illustrant de manière ludique la cryptographie par réseaux via des mécaniques type Tetris.",
+          "date": "S2 2025",
+          "tech": "Python (PyGame, PyTest), GitHub, mathématiques appliquées à la cryptographie.",
+          "role": "Développeur",
+          "link": "https://images-archive.math.cnrs.fr/Cryptris-1-2-Comprendre-une-des-techniques-les-plus-sophistiquees-de.html",
+          "ltext": "Article du CNRS"
+        },
+        {
+          "name": "Portfolio",
+          "desc": "Réalisation d'un portfolio évolutif présentant mes travaux et projets, prêt à l'emploi et adapté à un parcours international via la sélection de langue.",
+          "date": "Déc. 2025",
+          "tech": "HTML, JavaScript, JSON, Git, GitHub Pages.",
+          "role": "Développeur",
+          "link": "https://github.com/Arthur19M/my_portfolio",
+          "ltext": "Page GitHub"
+        }
+      ],
+      "created": "Créé - ",
+      "tech": "Outils - ",
+      "role": "Rôle - ",
+      "more": "En apprendre plus - "
     },
     "contact": {
       "title": "Contactez-moi",
