@@ -71,7 +71,7 @@ Main logic is located in `js/script.js`.
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 This project must be served over HTTP.  
 Opening `index.html` directly will not load translations due to browser security (fetch + CORS).
