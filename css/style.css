@@ -1025,3 +1025,37 @@ Responsive
 		font-size: 20px;
 	}
 }
+
+
+/* ------------
+Footer
+-------------- */
+
+.footer {
+    margin-top: 40px;
+    background-color: var(--white-alpha-25);
+    border: 1px solid var(--white-alpha-40);
+    border-radius: 30px;
+    backdrop-filter: var(--webkit-backdrop-filter);
+    padding: 25px 0;
+}
+
+.footer-content {
+    text-align: center;
+    color: var(--blue-dark);
+    font-size: 14px;
+}
+
+.footer-content p {
+    margin: 6px 0;
+}
+
+.footer-content a {
+    color: var(--main-color);
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+    color: var(--blue-dark);
+}
