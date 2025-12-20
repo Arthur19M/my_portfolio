@@ -90,7 +90,7 @@
           "ltext": "Confidential Project"
         },
         {
-          "name": "Cryptris Python",
+          "name": "Applied Cryptology Project: Cryptris Python",
           "desc": "A Python game inspired by Cryptris, illustrating lattice-based cryptography through Tetris-style mechanics.",
           "date": "S2 2025",
           "tech": "Python (PyGame, PyTest), GitHub, applied mathematics for cryptography.",
@@ -106,6 +106,15 @@
           "role": "Developer",
           "link": "https://github.com/Arthur19M/my_portfolio",
           "ltext": "GitHub Page"
+        },
+        {
+          "name": "Scientific and Technical Project: BeerGarden",
+          "desc": "Full development of a video game aimed at raising students’ awareness of the consequences of alcohol consumption during their studies, particularly during exam periods.",
+          "date": "S1 2024",
+          "tech": "GitHub, Algorithms, Kanban, Project Management, Teamwork.",
+          "role": "Project Leader (4 people)",
+          "link": "https://www.construct.net/en/free-online-games/beergarden-63852/play",
+          "ltext": "Play the game"
         }
       ],
       "created": "Created - ",
@@ -209,7 +218,7 @@
           "ltext": "Projet soumis à la confidentialité"
         },
         {
-          "name": "Cryptris Python",
+          "name": "Projet de Cryptologie Appliquée : Cryptris Python",
           "desc": "Jeu Python inspiré de Cryptris illustrant de manière ludique la cryptographie par réseaux via des mécaniques type Tetris.",
           "date": "S2 2025",
           "tech": "Python (PyGame, PyTest), GitHub, mathématiques appliquées à la cryptographie.",
@@ -225,6 +234,15 @@
           "role": "Développeur",
           "link": "https://github.com/Arthur19M/my_portfolio",
           "ltext": "Page GitHub"
+        },
+        {
+          "name": "Projet Scientifique et Technique : BeerGarden",
+          "desc": "Réalisation complète d'un jeu vidéo ayant pour objectif de sensibiliser les étudiants aux conséquences de la consommation d’alcool pendant les études, notamment en période d’examens.",
+          "date": "S1 2024",
+          "tech": "GitHub, Algorithmie, Kanban, Gestion de projet, Esprit d'équipe.",
+          "role": "Chef de projet (4 personnes)",
+          "link": "https://www.construct.net/en/free-online-games/beergarden-63852/play",
+          "ltext": "Jouer au jeu"
         }
       ],
       "created": "Créé - ",
