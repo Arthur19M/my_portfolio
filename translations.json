@@ -55,10 +55,14 @@
       },
       "experience": "Experience",
       "exp": {
-        "date1": "SUMMERS 2023, 2024, 2025 (9 months)",
-        "loc1": "CRÊPERIE DE LA GARE - <span>Sartrouville, France</span>",
-        "name1": "Waiter – Seasonal Position",
-        "desc1": "Over 120 seats. Table service, bar work, technical support, inventory and supplier management, and development of a new menu offer: recipe creation, strategy, and staff training."
+        "date1": "APRIL – JULY 2026 (5 months)",
+        "loc1": "ARTIK CONSULTING - <span>Issy-les-Moulineaux, France</span>",
+        "name1": "PHP / MySQL Developer – Technical Internship",
+        "desc1": "Design and development of PHP/MySQL modules for an internal time and activity management tool, with contributions to improving the website's usability.",
+        "date2": "SUMMERS 2023, 2024, 2025 (9 months)",
+        "loc2": "CRÊPERIE DE LA GARE - <span>Sartrouville, France</span>",
+        "name2": "Waiter – Seasonal Position",
+        "desc2": "Over 120 seats. Table service, bar work, technical support, inventory and supplier management, and development of a new menu offer: recipe creation, strategy, and staff training."
       },
       "cv": "Download CV",
       "contact": "Contact me"
@@ -170,10 +174,14 @@
       },
       "experience": "Expérience",
       "exp": {
-        "date1": "ÉTÉS 2023, 2024, 2025 (9 mois)",
-        "loc1": "CRÊPERIE DE LA GARE - <span>Sartrouville, France</span>",
-        "name1": "Serveur – Emploi saisonnier",
-        "desc1": "Plus de 120 couverts. Service en salle et au bar, support technique, gestion des stocks et des fournisseurs, et conception d’une nouvelle offre : recette, stratégie, formation d’équipes."
+        "date1": "AVRIL – JUILLET 2026 (5 mois)",
+        "loc1": "ARTIK CONSULTING - <span>Issy-les-Moulineaux, France</span>",
+        "name1": "Développeur PHP / MySQL – Stage technique",
+        "desc1": "Conception et développement de modules PHP/MySQL pour un outil interne de gestion des temps et activités, avec contribution à l’amélioration ergonomique du site web.",
+        "date2": "ÉTÉS 2023, 2024, 2025 (9 mois)",
+        "loc2": "CRÊPERIE DE LA GARE - <span>Sartrouville, France</span>",
+        "name2": "Serveur – Emploi saisonnier",
+        "desc2": "Plus de 120 couverts. Service en salle et au bar, support technique, gestion des stocks et des fournisseurs, et conception d’une nouvelle offre : recette, stratégie, formation d’équipes."
       },
       "cv": "Télécharger CV",
       "contact": "Me contacter"
